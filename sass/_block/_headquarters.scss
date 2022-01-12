@@ -1,0 +1,77 @@
+.headquarters{
+    padding-top: 168px;
+    padding-bottom: 168px;
+}
+
+.headquaters__map{
+    width: 1045px;
+    margin: 0 auto 168px;
+}
+
+.headquarters__title{
+    font-family:"Fraunces";
+    font-weight:900;
+    font-size:24px;
+    line-height:32px;
+    color: #83888F;
+    margin-bottom:75px;
+}
+
+.headquarters__list{
+    display: flex;
+    width: 898px;
+}
+
+.headquarters__item{
+    margin-right: 95px;
+}
+
+.headquarters__item:last-child{
+    margin-right: 0;
+}
+
+.headquarters__item--canada{
+    margin-right: 231px;
+}
+
+.headquarters__img{
+    width:41px ;
+    height:49px ;
+    margin-bottom: 46px;
+}
+
+.headquarters__img--canada{
+    width:56px;
+    height:50px ;
+}
+
+.headquarters__img--austtralia{
+    width:49px ;
+    height:44px ;
+}
+
+.headquarters__text{
+    font-family:"Fraunces" ;
+    font-weight:900 ;
+    font-size:32px ;
+    line-height:36px ;
+    margin-bottom: 24px;
+}
+
+.headquarters__address{
+    font-family:"Barlow" ;
+    font-weight:400 ;
+    font-style: normal;
+    font-size:16px ;
+    line-height:26px ;
+    color: $color-darkgreyblue-color;
+}
+
+.headquarters__link{
+    font-family:"Barlow" ;
+    font-weight:400 ;
+    font-size:16px ;
+    line-height:26px ;
+    text-decoration: none;
+    color:$color-darkgreyblue-color ; 
+}

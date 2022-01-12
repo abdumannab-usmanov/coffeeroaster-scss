@@ -1,0 +1,36 @@
+.hero{
+    margin-bottom: 168px;
+}
+
+.hero__inner{
+    background-image:url(../img/about-us.svg);
+    background-repeat: no-repeat;
+    background-size: 1280px 450px;
+    border-radius: 10px;
+    padding-top:137px ;
+    padding-bottom: 137px;
+    padding-left: 85px;
+
+}
+
+.hero__title{
+    font-family:"Fraunces";
+    font-weight: 900;
+    font-size: 40px;
+    line-height:48px;
+    color: $color-lightcream-color;
+    margin-bottom: 24px;
+}
+
+.hero__content{
+    width: 445px;
+
+}
+
+.hero__text{
+    font-family:"Barlow" ;
+    font-size:400; 
+    font-size:16px; 
+    line-height: 26px;
+    color: $color-lightcream-color;
+}

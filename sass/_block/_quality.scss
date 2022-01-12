@@ -1,0 +1,60 @@
+.quality{
+    padding-top: 244px;
+    
+}
+
+.quality__inner{
+    display: flex;
+    align-items: center;
+    background-color:#2C343E ;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+
+.quality__content{
+    padding-top: 88px;
+    padding-bottom: 168px;
+    padding-left: 85px;
+    
+}
+
+.quality__box{
+    width: 517px;
+
+}
+
+.quality__span{
+    width: 540px;
+}
+
+.quality__title{
+    font-family:"Fraunces";
+    font-weight:900;
+    font-size:40px;
+    line-height: 48px;
+    color: $color-lightcream-color;
+    margin-bottom: 32px;
+    
+}
+
+.quality__text{
+    font-family:"Barlow" ;
+    font-weight:400 ;
+    font-size:16px ;
+    line-height:26px ;
+    opacity: 0.8;
+   color: $color-lightcream-color;
+}
+
+.quality__img{
+    width:445px ;
+    height:474px ;
+    margin-left: 92px;
+    position: absolute;
+    top: -72px;
+    right: 116px;
+    border-radius: 8px;
+
+}

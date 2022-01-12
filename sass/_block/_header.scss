@@ -1,0 +1,38 @@
+header{
+    padding: 44px 0 44px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header__logo{
+    margin-right: auto;
+}
+    
+.header__list{
+    display: flex;
+    list-style: none;
+    font-weight:700;
+    font-size:12px;
+    line-height:15px;
+}
+
+.header__item{
+    margin-left:32px;
+}
+.header__item:first-child{
+    margin-left: 0;
+}
+
+.header__link{
+    text-decoration:none;
+    color:#83888F ;
+    transition: all 0.4s ease;
+}
+ 
+.header__link:hover{
+    transition: all 0.4s ease;
+    color:#333D4B;
+}

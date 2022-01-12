@@ -1,0 +1,32 @@
+.commitment__inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.commitment__img{
+    width: 445px;
+    height: 520px;
+    margin-right: 125px;
+}
+
+.commitment__content{
+    width: 540px;
+}
+
+.commitment__title{
+    font-family:"Fraunces";
+    font-weight:900 ;
+    font-size: 40px;
+    line-height:48px ;
+    color: $color-darkgreyblue-color;
+    margin-bottom: 32px;
+}
+
+.commitment__text{
+    font-family:"Barlow";
+    font-weight:400 ;
+    font-size:16px ;
+    line-height:26px ;
+    color: $color-darkgreyblue-color;
+}
