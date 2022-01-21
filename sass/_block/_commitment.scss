@@ -5,13 +5,15 @@
 }
 
 .commitment__img{
-    width: 445px;
-    height: 520px;
+    width: 100%;
+    max-width: 445px;
+    max-height: 520px;
     margin-right: 125px;
 }
 
 .commitment__content{
-    width: 540px;
+    width: 100%;
+    max-width: 540px;
 }
 
 .commitment__title{
@@ -30,3 +32,219 @@
     line-height:26px ;
     color: $color-darkgreyblue-color;
 }
+
+
+@media only screen and (max-width:970px ){
+        
+        .commitment__img{
+            margin-right: 60px;
+        }
+        
+        
+        .commitment__title{
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+        
+    }
+    
+    @media only screen and (max-width:900px ){
+        
+        .commitment__img{
+            margin-right: 20px;
+        }
+        
+        .commitment__title{
+            line-height: 28px
+        }
+        
+        .commitment__text{
+            line-height: 20px;
+        }
+    }
+    
+    @media only screen and (max-width:850px ){
+    
+        .commitment__content {
+            width: 100%;
+            max-width: 563px;
+    
+        }
+            
+
+
+        .commitment__inner{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .commitment__img{
+            margin-right: 0px;
+            margin-bottom: 40px;
+        }
+        
+        .commitment__content{
+            margin: 0 auto;
+        }
+
+        .commitment__title{
+            text-align: center;
+            line-height: 28px
+        }
+        
+        .commitment__text{
+            text-align: center;
+            line-height: 20px;
+        }
+    }
+    
+ 
+    @media only screen and (max-width:600px ){   
+        
+        .commitment__content {
+            width: 100%;
+            max-width: 563px;
+    
+        }
+
+        .commitment__inner{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .commitment__img{
+            margin-right: 0px;
+            margin-bottom: 40px;
+        }
+        
+        .commitment__content{
+            margin: 0 auto;
+        }
+
+        .commitment__title{
+            text-align: center;
+            line-height: 28px
+        }
+        
+        .commitment__text{
+            text-align: center;
+            line-height: 20px;
+            margin: 0 auto;
+            padding: 0 70px
+        }
+    }
+
+    @media only screen and (max-width:550px ){
+        
+        .commitment__content {
+            width: 100%;
+            max-width: 563px;
+    
+        }
+
+        .commitment__inner{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .commitment__img{
+            width: 100%;
+            max-width: 360px;
+            margin-right: 0px;
+            margin-bottom: 40px;
+        }
+        
+        .commitment__content{
+            margin: 0 auto;
+        }
+
+        .commitment__title{
+            text-align: center;
+            line-height: 28px
+        }
+        
+        .commitment__text{
+            text-align: center;
+            line-height: 20px;
+            margin: 0 auto;
+            padding: 0 70px
+        }
+    }
+
+
+    @media only screen and (max-width:500px ){
+        
+        .commitment__content {
+            width: 100%;
+            max-width: 563px;
+    
+        }
+
+        .commitment__inner{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .commitment__img{
+            width: 100%;
+            max-width: 360px;
+            margin-right: 0px;
+            margin-bottom: 40px;
+        }
+        
+        .commitment__content{
+            margin: 0 auto;
+        }
+
+        .commitment__title{
+            text-align: center;
+            line-height: 28px
+        }
+        
+        .commitment__text{
+            text-align: center;
+            line-height: 20px;
+            margin: 0 auto;
+            padding: 0 30px
+        }
+    }
+
+    @media only screen and (max-width:500px ){
+    
+        
+        .commitment__content {
+            width: 100%;
+            max-width: 563px;
+    
+        }
+
+        .commitment__inner{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .commitment__img{
+            width: 100%;
+            max-width: 360px;
+            margin-right: 0px;
+            margin-bottom: 40px;
+        }
+        
+        .commitment__content{
+            margin: 0 auto;
+        }
+
+        .commitment__title{
+            text-align: center;
+            font-size: 30px;
+            line-height: 28px
+        }
+        
+        .commitment__text{
+            text-align: center;
+            font-size: 15px;
+            line-height: 20px;
+            margin: 0 auto;
+            padding: 0 30px
+        }
+    }

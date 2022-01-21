@@ -1,5 +1,5 @@
 .hero{
-    margin-bottom: 168px;
+    padding-bottom: 80px;
 }
 
 .hero__inner{
@@ -10,10 +10,11 @@
     padding-top:137px ;
     padding-bottom: 137px;
     padding-left: 85px;
-
+    
 }
 
 .hero__title{
+    width: 100%;
     font-family:"Fraunces";
     font-weight: 900;
     font-size: 40px;
@@ -23,8 +24,9 @@
 }
 
 .hero__content{
-    width: 445px;
-
+    width: 100%;
+    max-width: 445px;
+    
 }
 
 .hero__text{
@@ -34,3 +36,159 @@
     line-height: 26px;
     color: $color-lightcream-color;
 }
+
+@media only screen and (max-width:900px ){
+    
+    .hero__inner{
+        background-image: url(../img/about-us.svg);
+        background-repeat: no-repeat;
+        background-size: 956px 450px;
+        border-radius: 10px;
+        padding-top: 137px;
+        padding-bottom: 137px;
+        padding-left: 85px;
+        
+    }
+    
+}
+
+@media only screen and (max-width:700px ){
+    
+    
+    .hero__inner{
+        background-image: url(../img/about-us.svg);
+        background-repeat: no-repeat;
+        background-size: 886px 450px; 
+        border-radius: 10px;
+        padding-top: 115px;
+        padding-bottom: 115px;
+        padding-left: 57px;
+       
+    }
+    
+}
+
+@media only screen and (max-width:600px ){
+    
+    .hero__inner {
+        background-image: url(../img/about-us.svg);
+        background-repeat: no-repeat;
+        background-size: 814px 389px;
+        border-radius: 10px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 57px;
+        // position: absolute;
+        // left: 20px;
+        // top: -168px;
+        // right: 20px;
+    }
+    
+}
+
+@media only screen and (max-width:550px ){
+    
+    
+    .hero__inner{
+        background-image: url(../img/about-us.svg);
+        background-repeat: no-repeat;
+        background-size: 675px 358px;
+        border-radius: 10px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 40px;
+        // position: absolute;
+        // left: 20px;
+        // top: -168px;
+        // right: 20px;
+    }
+}
+
+@media only screen and (max-width:550px ){
+    
+    .hero__title{
+        font-size: 30px
+    }
+    
+    .hero__text{
+        width: 320px;
+    }
+    
+}
+
+
+@media only screen and (max-width:450px ){
+
+    .hero__inner{
+        background-image: url(../img/about-us.svg);
+        background-repeat: no-repeat;
+        background-size: 569px 350px;
+        border-radius: 10px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 20px;
+        // position: absolute;
+        // left: 20px;
+        // top: -168px;
+        // right: 20px;
+    }
+    
+}
+
+@media only screen and (max-width:400px ){
+.hero__inner {
+    background-image: url(../img/about-us.svg);
+    background-repeat: no-repeat;
+    background-size: 478px 327px;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 63px;
+    padding-left: 16px;
+    // position: absolute;
+    // left: 20px;
+    // top: -168px;
+    // right: 20px;
+}
+
+.hero__text{
+    width: 254px;
+}
+
+}
+
+
+@media only screen and (max-width:350px ){
+
+    .hero__inner {
+        background-image: url(../img/about-us.svg);
+        background-repeat: no-repeat;
+        background-size: 386px 306px;
+        border-radius: 10px;
+        padding-top: 50px;
+        padding-bottom: 63px;
+        padding-left: 16px;
+        // position: absolute;
+        // left: 20px;
+        // top: -168px;
+        // right: 20px;
+    }
+
+
+.hero__title{
+    margin-bottom: 10px;
+}
+
+.hero__text{
+    width: 260px;
+}
+
+}
+
+@media only screen and (max-width:350px ){
+
+    .hero__title{
+        padding-left: 40px;
+    }
+
+}
+
