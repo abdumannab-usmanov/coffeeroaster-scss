@@ -4,7 +4,8 @@
 }
 
 .headquaters__map{
-    width: 1045px;
+    width: 100%;
+    max-width: 1045px;
     margin: 0 auto 168px;
 }
 
@@ -19,7 +20,8 @@
 
 .headquarters__list{
     display: flex;
-    width: 898px;
+    width: 100%;
+    max-width: 898px;
 }
 
 .headquarters__item{
@@ -35,19 +37,22 @@
 }
 
 .headquarters__img{
-    width:41px ;
-    height:49px ;
+    width: 100%;
+    max-width:41px ;
+    max-height:49px ;
     margin-bottom: 46px;
 }
 
 .headquarters__img--canada{
-    width:56px;
-    height:50px ;
+    width: 100%;
+    max-width:56px;
+    max-height:50px ;
 }
 
 .headquarters__img--austtralia{
-    width:49px ;
-    height:44px ;
+    width: 100%;
+    max-width:49px ;
+    max-height:44px ;
 }
 
 .headquarters__text{
@@ -77,4 +82,85 @@
 }
 
 
-// @media only screen and (max-width: )
+@media only screen and (max-width:800px ){
+    
+    .headquarters{
+        padding-top: 120px;
+    }
+
+    .headquarters__map{
+        padding: 0 20px;
+    }
+    
+    .headquarters__item--canada{
+        margin-right: 130px;
+    }
+    
+    
+}
+
+@media only screen and (max-width:700px ){
+    
+    .headquarters{
+        padding-top: 100px;
+    }
+
+    .headquarters__title{
+        text-align: center;
+    }
+    
+    .headquarters__item--canada{
+        margin-right: 80px;
+    }
+    
+    // .headquarters__item:first-child{
+    //     margin-right: 55px;
+    // }
+    
+    
+}
+
+@media only screen and (max-width:646px ){
+    
+    .headquarters{
+        padding-top: 100px;
+    }
+
+
+    .headquarters__title{
+        margin-bottom: 50px;
+    }
+    
+    .headquarters__list{
+        display: flex; 
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .headquarters__img{
+        margin-bottom: 20px;
+    }
+
+    .headquarters__text{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    // .headquarters__item--canada{
+    //     margin-right: 80px;
+    // }
+    
+    .headquarters__item{
+        margin: 0 auto;
+        padding: 0 20px;
+        margin-bottom: 30px;
+
+    }
+
+    .headquarters__item:last-child{
+        margin: 0 auto ;
+    }
+    
+    
+}
